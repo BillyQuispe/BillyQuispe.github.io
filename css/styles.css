@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x:hidden;
+}
+body{
+    background: #333;
+    overflow-x: hidden;
+    padding-left: 50rem;
+}
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+.boton{
+    padding: 2rem 2rem;
+    background: slategray;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid;
+    color: aliceblue;
+}
+
+header{
+    position:fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 50rem;
+    background: slategray; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+header .user img{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid;
+
+}
+
+header .user .nombre{
+    font-size: 3.5rem;
+    color: aliceblue;
+}
+header .user .link{
+    font-size: 3.5rem;
+    color: aliceblue;
+}
+
+header .barra{
+    width: 100%;
+}
+
+header .barra ul{
+    list-style: none ;
+    padding: 1rem 3rem;
+}
+
+header .barra ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: aliceblue;
+    font-size: 2rem;
+    border-radius: 5rem;
+
+}
+
+.bienvenida{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+    text-transform: capitalize;
+}
+
+.bienvenida h3{
+    font-size: 2.5rem;
+    color: aliceblue;
+    text-transform: none;
+}
+
+.bienvenida p {
+    font-size: 2rem;
+    color: aliceblue;
+    padding: 1rem 0;
+    text-transform: none;
+}
+.bienvenida li{
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 1rem 0;
+    text-transform: none;
+}
+
+.yo{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+.yo .row{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.yo .row .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.yo .row .info h3{
+    font-size: 2rem; 
+    color: antiquewhite;
+    padding: 1rem 0;
+    font-weight: normal;   
+}
+.yo .row .counter{
+    flex: 1 1 48rem;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.yo .row .counter .caja{ 
+    width: 20rem;
+    background: #242121;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;   
+}
+
+.yo .row .counter .caja h3{ 
+    font-size: 2rem;
+    color: rgb(160, 112, 50);  
+    text-transform: none;
+}
+
+.Formacion{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+.Formacion .cajacont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.Formacion .cajacont .caja {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #beb6b6;
+    position: relative;
+}
+
+.Formacion .cajacont .caja span{
+    font-size: 1.3rem;
+    background: #e2b4b4;
+    color: aliceblue;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem; 
+}
+
+.Formacion .cajacont .caja h3{
+    font-size:2rem;
+    color: aliceblue;
+    padding-top: 1.5rem;
+}
